@@ -470,7 +470,7 @@ html, body {
 .column {
     flex: 1 1 45%; /* Adjust this value for wider or narrower columns */
     margin-bottom: 20px;
-    padding:30px;
+    padding:20px;
 }
 .cards {
     background-color: white;
@@ -483,11 +483,11 @@ html, body {
     flex-direction: column;
     height: 50%; /* Ensures all cards in a column are of equal height */
 }
+
 .cards-content {
     flex: 1;
     display: flex;
     flex-direction: column;
-    padding: 20px;
     box-sizing: border-box;
 }
 .cards img {
@@ -506,19 +506,23 @@ html, body {
     margin: 10px 0;
     font-size: 1.3em;
     color: black;
+    padding-right: 30px;
+    padding-left: 30px;
     flex: 1;
 }
 .cards-buttons {
     display: flex;
-    justify-content: space-around;
-    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
 }
+
 .cards-buttons button {
 
         font-size: 1.2rem;
         font-weight: normal;
         text-transform: uppercase;
         text-decoration: none;
+        margin-bottom: 30px;
         letter-spacing: 0.5px;
         background-color: #000000;
         border-style: solid;
@@ -529,7 +533,6 @@ html, body {
         border-color: white;
         color: white;
         font-size: 20px;
-        padding: 10px 20px;
         font-weight: bold;
 
 }
@@ -539,6 +542,13 @@ html, body {
 @media (max-width: 768px) {
     .column {
         flex: 1 1 100%; /* Full width for smaller screens */
+        margin-top: 40px;
+    }
+    .cards-title{
+        font-size: 1.5em;
+    }
+    .cards-description{
+        font-size: 1em;
     }
 }
 .gridss-container {
