@@ -468,7 +468,7 @@ html, body {
 
 }
 .column {
-    flex: 1 1 45%; /* Adjust this value for wider or narrower columns */
+    flex: 1 1 25%; /* Adjust this value for wider or narrower columns */
     margin-bottom: 20px;
     padding:20px;
 }
