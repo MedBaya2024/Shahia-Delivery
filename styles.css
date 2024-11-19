@@ -994,3 +994,6 @@ html, body {
     justify-content: center;
     align-items: center;
 }
+.footer-section{
+    height: 500px;
+}
